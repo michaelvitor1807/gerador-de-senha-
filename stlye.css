@@ -90,11 +90,28 @@ body{
     justify-content: center;
 }
 
-.parametro-senha__botao{
-
+.parametro-senha__bota{
+    background-color: var(--fundo-texto);
+    color: var(--branco);
+    border:2xp solid var (--borda);
+    padding: 24px;
+    font-size: 24px;
 }
-.parametro-senha__texto{
 
+.parametro-senha__texto{
+    padding: 24px;
+    border-top:2px solid var (--borda);
+    border-bottom: 2px solid var(--borda);
+    margin:0;
+    font-size: 24px;
+}
+label{
+    font-size: 20px;
+}
+.checkbox{
+    width:20px;
+    height:20px;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 768px) {
